@@ -118,11 +118,26 @@ MYSQL插件式存储引擎
 	缓存置换策略
 	被钉住的块		
 
+mysql server (mysqld,mysql)
+mysql cluster(不怎么用)
+mysql proxy(代理,读写分离)
+mysql migration tloolkit (移植工具)
+mysql embedded server (嵌入)
 
+percona
 
+mysql安装
+专用软件包管理器包
+通用二进制格式包
+源代码
 
+mysql密码修改
+mysqladmin -u username -h hostname password 'new-pass' -p
+mysql>set password for 'username'@'host'=password('new_psaa');
+mysql>update mysql.user set password=password('new_pass') where condition;
 
-
+mysql安装
+源码安装mysql
 
 
 
